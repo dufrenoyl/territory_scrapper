@@ -1,0 +1,4 @@
+		#print elements.text
+		#print elements.size
+		#print elements.find_element_by_xpath(xpath + '/tbody/tr[1]').text
+		#print elements.find_element_by_xpath(xpath + '/tbody/tr[1]').size

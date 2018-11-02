@@ -1,0 +1,12 @@
+Admin account MySQL:
+login: root
+Pwd: UTC
+
+Change root password:
+sudo mysqladmin -u root -h localhost password 'mypassword'
+
+Connection to DB:
+mysql -h localhost -u root -p
+
+Save Database:
+mysqldump -u user -p --opt name_of_DB > backup.sql
